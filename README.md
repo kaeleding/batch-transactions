@@ -19,3 +19,7 @@ Batch Transfer Dialog (Step 2)
 Batch Transfer Dialog (Step 3)
 
 <img width="2129" height="1192" alt="image" src="https://github.com/user-attachments/assets/756076f7-30e1-43b5-a133-9bb33033d02a" />
+
+Batch Transfer Dialog (Invalid CSV)
+
+<img width="2067" height="1185" alt="image" src="https://github.com/user-attachments/assets/ee486347-23a0-4392-8cdb-81596a38f0af" />
