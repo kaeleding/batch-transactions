@@ -12,7 +12,7 @@ interface ErrorTooltipProps {
 export function ErrorTooltip({ message }: ErrorTooltipProps) {
   return (
     <Tooltip>
-      <TooltipTrigger asChild>
+      <TooltipTrigger>
         <AlertCircle
           className="inline-block ml-1.5 text-destructive cursor-help"
           size={14}

@@ -104,7 +104,7 @@ export function StepTransferDetails({
         <Select
           value={formData.approver}
           onValueChange={(value) =>
-            onDetailsChange({ ...formData, approver: value })
+            onDetailsChange({ ...formData, approver: value ?? '' })
           }
         >
           <SelectTrigger id="approver">
