@@ -22,7 +22,7 @@ export function TransactionsTable({ transactions }: TransactionsTableProps) {
             <TableHead>Transaction Date</TableHead>
             <TableHead>Account Number</TableHead>
             <TableHead>Account Holder Name</TableHead>
-            <TableHead className="text-right">Amount</TableHead>
+            <TableHead>Amount</TableHead>
             <TableHead>Status</TableHead>
           </TableRow>
         </TableHeader>

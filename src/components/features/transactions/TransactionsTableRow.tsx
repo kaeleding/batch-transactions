@@ -14,7 +14,7 @@ export function TransactionsTableRow({ transaction }: TransactionsTableRowProps)
       <TableCell>{formatDate(transaction.transactionDate)}</TableCell>
       <TableCell className="font-mono text-sm">{transaction.accountNumber}</TableCell>
       <TableCell>{transaction.accountHolderName}</TableCell>
-      <TableCell className="text-right">{formatCurrency(transaction.amount)}</TableCell>
+      <TableCell>{formatCurrency(transaction.amount)}</TableCell>
       <TableCell>
         <div className="flex items-center gap-1">
           <StatusBadge status={transaction.status} />
