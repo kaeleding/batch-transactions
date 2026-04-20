@@ -14,15 +14,12 @@ interface TransactionsTableProps {
 
 export function TransactionsTable({ transactions }: TransactionsTableProps) {
 
-  function handleTransactionDateSort() {
-    console.log('transaction date')
-  }
   return (
     <div className="rounded-md border">
       <Table>
         <TableHeader>
           <TableRow>
-            <TableHead onClick={handleTransactionDateSort}>Transaction Date</TableHead>
+            <TableHead>Transaction Date</TableHead>
             <TableHead>Account Number</TableHead>
             <TableHead>Account Holder Name</TableHead>
             <TableHead className="text-right">Amount</TableHead>
